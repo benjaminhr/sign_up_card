@@ -16,13 +16,13 @@
 		"oF": 0
 		},
 	"\/main.css": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/main-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"\/main.js": {
@@ -33,6 +33,17 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/photo.png": {
+		"ft": 32768,
+		"iS": 1916167,
+		"oA": 0,
+		"oAP": "\/photo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/README.md": {
 		"cS": 0,
@@ -61,13 +72,13 @@
 	"creationDate": 521556990,
 	"displayValue": "signup",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_gray"
+	"iconImageName": "brackets_teal"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
-	"autoBuildNewItems": 1,
+	"autoBuildNewItems": 0,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
@@ -310,9 +321,9 @@
 	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
-	"bowerAutoCreateInfoFile": 1,
+	"bowerAutoCreateInfoFile": 0,
 	"bowerInstallDevDependencies": 0,
-	"bowerSaveDependencies": 1,
+	"bowerSaveDependencies": 0,
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
@@ -1420,8 +1431,8 @@
 		},
 	"esLintSourceType": 0,
 	"externalServerAddress": "http:\/\/localhost:8888",
-	"gitIgnoreBuildFolder": 1,
-	"hideConfigFile": 0,
+	"gitIgnoreBuildFolder": 0,
+	"hideConfigFile": 1,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
