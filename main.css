@@ -17,7 +17,7 @@ body {
   width:900px;
   height:650px;
   background-color:white;
-  border-radius:5px;
+  border-radius:7px;
   margin:0 auto;
   margin-top:5em;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -30,7 +30,7 @@ body {
 #image {
   width:335px;
   float:right;
-  border-radius:0px 5px 5px 0px;
+  border-radius:0px 7px 7px 0px;
 }
 
 #pretext {
@@ -66,7 +66,11 @@ body {
   display:flex;
   justify-content: space-around;
   transition-duration:1s;
+  margin-bottom:1em;
+  margin-top:5em;
 }
+
+/* maybe keyframe would be better??*/
 
 #google:hover {
   transition-duration: 0.5s;
@@ -81,22 +85,32 @@ body {
   letter-spacing: 1.5px;
   font-weight:600;
   color:#616161;
-  padding-right:4.9em;
+  padding-right:5.2em;
 }
 
 #gplus {
   width:25px;
   height:25px;
   margin-top:21px;
+  margin-left:7px;
 }
 
 #facebook {
   border:	#e9e9e9 solid 1px;
   border-radius:7px;
-  height:70px;;
+  height:70px;
   width:400px;
   display:flex;
   justify-content: space-around;
+  margin-bottom:1em;
+  transition-duration: 1s;
+}
+
+#facebook:hover {
+  transition-duration: 0.5s;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border:none;
+  cursor:pointer;
 }
 
 #fb-logo {
@@ -121,6 +135,15 @@ body {
   width:400px;
   display:flex;
   justify-content: space-around;
+  margin-bottom:1em;
+  transition-duration: 1s;
+}
+
+#twitter:hover {
+  transition-duration: 0.5s;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border:none;
+  cursor:pointer;
 }
 
 #tw-logo {
