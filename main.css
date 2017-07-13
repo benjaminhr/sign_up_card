@@ -38,7 +38,7 @@ hr {
 }
 
 #top-text {
-  padding-top:3em;
+  padding-top:5em;
 }
 
 #pretext {
@@ -63,12 +63,12 @@ hr {
 }
 
 #subtext {
-  opacity:0.3;
+  opacity:0.4;
   font-size:12px;
   font-weight:600;
   margin-top:0;
   padding-left:3px;
-
+  width:450px;
 }
 
 
@@ -81,7 +81,7 @@ hr {
   justify-content: space-around;
   transition-duration:1s;
   margin-bottom:1em;
-  margin-top:1em;
+  margin-top:2em;
 }
 
 /* maybe keyframe would be better??*/
@@ -177,7 +177,7 @@ hr {
 
 /*fix footer vertical align */
 footer {
-  margin-top:6em;
+  margin-top:5.5em;
 }
 
 #footer-text{
@@ -188,15 +188,17 @@ footer {
   letter-spacing: 1px;
   float:left;
   margin-left:4.5em;
+  padding-top:5px;
 }
 
 #use-your-email {
   float:right;
-  margin-right:4.6em;
-  margin-top:1.2em;
+  margin-right:6em;
+  margin-top:1.3em;
   font-size:11px;
   letter-spacing:2px;
   color:rgb(76,79,91);
   font-weight:700;
   cursor:pointer;
+  padding-top:4px;
 }
